@@ -32,6 +32,12 @@ nav{
 	margin-top: 0;
 }
 
+.nav{
+	display: inline-block;
+	padding: 0 10px;
+	margin-top: 15px;
+}
+
 .unstyled-list{
 	list-style: none;
 }
@@ -41,13 +47,16 @@ nav{
 }
 
 .side-bar{
-	display: inline-block;
+	position: fixed;
 	background-color: #ecf0f1;
 	color: #000;
 	text-align: left;
 	width: 10%;
-	float: right;
-	/*margin-top: 16px;*/
+	height: 210px;
+	top: 265px;
+	right: 315px;
+	font-size: .75em;
+	line-height: 1.3em;
 }
 
 h3 {
@@ -72,4 +81,24 @@ p{
 	margin: 10px 30px;
 	font-size: .8em;
 	line-height: 1.5em;
+}
+
+button {
+	color: ;
+	background-color: #3498db;
+}
+
+.submit{
+	width: 472px;
+	background-color: #c0392b;
+	color: #FFF;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+.avatar{
+	margin: 0;
 }
