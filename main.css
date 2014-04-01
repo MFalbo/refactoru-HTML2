@@ -105,6 +105,23 @@ img{
 	margin: 0 auto;
 }
 
+.sub-comment{
+	margin-left: 50px;
+	border-left: 1px solid #CCC;
+}
+
 .avatar{
 	margin: 0;
+	margin-right: 10px;
+	float: left;
+}
+
+.user-name{
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+.comment-content{
+	margin-top: 10px;
+	margin-left: 0;
 }
