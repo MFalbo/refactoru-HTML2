@@ -63,9 +63,15 @@ h3 {
 	border-bottom: 1px solid #BBB;
 }
 
-table, th, tbody, td{
+table, tbody, td, th{
+	margin: 0 auto;
+	width: 472px;
 	border: 1px solid black;
 	text-align: center;
+}
+
+th{
+	background-color: #bdc3c7;
 }
 
 cite{
