@@ -18,10 +18,19 @@ body{
 }
 
 header{
+	position: relative;
 	background-color: #2ecc71;
 	color: white;
 	height: 200px;
 	border-bottom: 5px solid #2ebb71;
+	text-align: left;
+}
+
+header h1{
+	position: absolute;
+	left: 15px;
+	bottom: 0;
+	font-size: 24px;
 }
 
 nav{
@@ -124,4 +133,13 @@ img{
 .comment-content{
 	margin-top: 10px;
 	margin-left: 0;
+}
+
+input{
+	display: block;
+}
+
+pre{
+	overflow: auto;
+	background-color: #bdc3c7;
 }
